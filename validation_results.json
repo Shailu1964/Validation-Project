@@ -1,0 +1,18 @@
+[
+    {
+        "test_case": "Create a DataFrame with columns 'A', 'B' and fill it with random numbers.",
+        "result": {
+            "is_syntax_valid": true,
+            "execution_time": 0.002002239227294922,
+            "similarity_score": 0.0,
+            "feedback": "Needs Improvement"
+        }
+    },
+    {
+        "test_case": "Filter rows where column 'A' is greater than 10.",
+        "result": {
+            "is_syntax_valid": true,
+            "feedback": "Runtime Error: name 'df' is not defined"
+        }
+    }
+]
