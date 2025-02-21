@@ -6,7 +6,7 @@ from google.generativeai.types import GenerationConfig
 load_dotenv()
 
 # Configure Google Gemini API
-genai.configure(api_key=os.getenv('GOOGLE_API_KEY', 'AIzaSyCeh14GWGwxSk6yw3Cx9I3Nl4dFJ7f29Fw'))
+genai.configure(api_key=os.getenv('GOOGLE_API_KEY', 'API_KEY'))
 
 def clean_code(code):
     """Clean up the generated code and ensure proper imports."""
