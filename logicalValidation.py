@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Set your Gemini API key
-genai.configure(api_key="AIzaSyCeh14GWGwxSk6yw3Cx9I3Nl4dFJ7f29Fw")
+genai.configure(api_key="Api_key")
 
 def validate_text_output(expected_output, generated_output):
     """
